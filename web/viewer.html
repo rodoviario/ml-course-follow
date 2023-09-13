@@ -18,7 +18,8 @@
       for(let student_id in groups){
         const samples=groups[student_id];
         const studentName=samples[0].student_name;
-        createRow(container,studentName,samples);
+        const studentId=student_id;
+        createRow(container,studentName,studentId,samples);
       }
     </script>
   </body>

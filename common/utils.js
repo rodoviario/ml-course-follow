@@ -1,5 +1,15 @@
 const utils = {};
 
+utils.flaggedUsers=
+[
+  1663882102141,
+  1663900040545,
+  1664485938220,
+  1666010556334,
+  1666998028989,
+  1663859212298
+];
+
 utils.formatPercent = (n) => {
   return (n * 100).toFixed(2) + "%";
 }
