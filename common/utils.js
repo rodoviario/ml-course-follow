@@ -22,6 +22,18 @@ utils.flaggedUsers=
   1682805893749
 ];
 
+utils.styles={
+  car:'gray',
+  fish: 'red',
+  house: 'yellow',
+  tree: 'green',
+  bicycle: 'cyan',
+  guitar: 'blue',
+  pencil: 'magenta',
+  clock: 'lightgray',
+}
+
+
 utils.formatPercent = (n) => {
   return (n * 100).toFixed(2) + "%";
 }
