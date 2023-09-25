@@ -15,6 +15,9 @@
     <script src="./chart/graphics.js"></script>
     <script src="./chart/math.js"></script>
     <script src="./chart/chart.js"></script>
+    <script src="./chart/graphics.js"></script>
+    <script src="./chart/math.js"></script>
+    <script src="./chart/chart.js"></script>
 
     <script>
       const {samples,featureNames}=features;
@@ -32,13 +35,15 @@
         axesLabels:featureNames,
         styles:utils.styles,
         transparency:0.7,
-        icon: "text"
+        icon: "image"
       };
+      graphics.generateImages(utils.styles);
 
       const chart=new Chart(
         chartContainer,
         samples,
-        options
+        options,
+        handleClick
       );
     </script>
   </body>
